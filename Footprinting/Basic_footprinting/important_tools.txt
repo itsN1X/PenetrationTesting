@@ -1,0 +1,15 @@
+1.Goolink scanner  -http://bestdownloadablefreeware.ru/fonts/goolink-scanner-free-download.html
+2.GoogleaHack Honeypot -A Google Hack Honeypot (GHH) is a system designed to be vulnerable to sophisticated search engine queries for the purpose of attracting hackers and studying their behavior. 
+
+GHH places an invisible link on the user’s website that can be detected through the use of advanced search operators. Google hacking (sometimes called Google dorking) is the use of advanced search operators to access hard-to-find information. Although Google hacking has many valid research purposes, it's also employed by attackers to gather information that can be used for illicit purposes, such as identity theft or corporate espionage. The reason Google hacking is effective is that neither website security nor corporate assets are adequately protected.
+
+To an attacker, a honeypot acts like a live system, but it doesn’t actually provide access to any important data. A properly configured honeypot also doesn’t provide evidence to a hacker that his actions are being monitored. It should have user accounts, system files and ports that respond to port scans. However, instead of providing access to real backend data, the invisible link on the user website directs would-be hackers to a PHP script that logs their activity.
+
+Administrators can use the information gathered to block access to resources, compile hacking attempt statistics or, if they chose, turn hacker information over to the authorities.
+
+http://ghh.sourceforge.net/
+
+3.searchdiggity-http://searchdiggity.software.informer.com/3.0/
+4.gooscan-http://www.darknet.org.uk/2008/11/gooscan-automated-google-hacking-tool/
+5.metagoofil-http://www.edge-security.com/metagoofil.php
+6.sitedigger-http://www.mcafee.com/in/downloads/free-tools/sitedigger.aspx
