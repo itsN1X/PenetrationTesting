@@ -1,0 +1,31 @@
+intite:"index of"
+inurl:admin
+allinurl:admin index
+intitle:"open webmail"
+intitle:"Mvblog powered"
+intitl:"remote desktop webconnections"
+inurl:"/root/etc/passwd"
+intext:"access denied for" intitle:"shopping cart"
+intitle:"bluenet video viewer"
+intitle:"snc-rz30 home-demo"
+intitle:"line view/-axis"
+inurl:"printer/main.html" intitle:"settings"
+inrul:root.asp?acs=anon
+ext:sql intext:"alter user" intitle:"identified by"
+inurl:/view/view.shtml -->insecure web cams
+intitle:hacking
+inurl:admin filetype:asp inurl:userlist
+inurl:adminlogin -->vulnerable pages
+
+------------------------------------------------------
+1.cahche
+2.allinurl
+3.info
+4.link
+5.related
+6.site
+7.intitle
+8.allintitle
+9.filetype:pdf
+
+
