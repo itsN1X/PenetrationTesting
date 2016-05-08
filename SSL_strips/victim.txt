@@ -1,0 +1,3 @@
+ip_address suppose 192.168.235.128
+
+Goto any https site on internet explorer 
