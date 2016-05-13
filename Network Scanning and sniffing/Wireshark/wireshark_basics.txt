@@ -1,0 +1,74 @@
+WIRESHARK:
+---------
+In interface list choose options
+1.uncheck all name resolution except mac resolution
+2.We can use multiple NIC's
+3.Tshark is CLI for Wireshark
+4.Computer has only one default gateway
+5.Allow promiscuous mode on all interfaces
+6.In display options tick all 
+
+In wireshark goto statistics --> endpoints 
+In wireshark goto voice-over-ip calls 
+In wireshark goto statistics --> flow graph
+
+You can save the capture before or after capturing
+
+Multiple NIC CAPTURE:
+--------------------
+ping 8.8.8.8 will use one adapter
+ping 10.0.0.1 will use another adapter
+In interface list choose both the interfaces to capture
+
+TSHARK:
+------
+first locate tshark in program files and add it to the windows path
+In cmd
+-tshark
+This captures tshark on one interface
+-tshark -D
+List all interfaces
+-tshark -i 1
+Capture on 1 interface
+-tshark -i 1 tshark_output.pcap -F pcapng
+Save the o/p in pcap file and analyse this file in wireshark
+
+Wireshark works in linux and mac much better
+and in linux and mac we can use tcpdump
+
+Go to terminal and 
+$ tcpdump -D
+To know interfaces
+$ tcpdump -i 3
+Capture on interface 3
+$ tcpdump -i 3 -w output.pcap
+Output to a file and analyse in wireshark
+
+
+ARP and PING:
+------------
+ARP -address resolution protocol
+and its job is to what find layer 2 mac address  to send the packet to
+Arp message is sent to switch and it is being forwarded to everyone within the network and correct device with destination mac responds back to the sender.
+ARP can resolve ip to mac in same n/w.
+
+
+If the message we want to send is off the n/w it will be sent to the router and it will go to destination.
+
+	Ip to Mac Resolution Rules:
+	--------------------------
+	Destination ip address is compared with routing table.
+	and examine ARP CACHE on local device
+	if cache is not there send out broadcast arp request
+
+	ICMP/PING:
+	---------
+	Message type popular one are
+		0 - Echo reply
+		8 - Echo
+		3 - Destination unreachable
+
+	To verify arp cache use command arp -a in terminal and examine the dynamic entries
+	If we want to clear arp cache use command arp -d* with admin rights
+
+	In terminal $route PRINT to see route table
