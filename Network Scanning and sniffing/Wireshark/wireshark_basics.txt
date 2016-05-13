@@ -8,9 +8,6 @@ In interface list choose options
 5.Allow promiscuous mode on all interfaces
 6.In display options tick all 
 
-In wireshark goto statistics --> endpoints 
-In wireshark goto voice-over-ip calls 
-In wireshark goto statistics --> flow graph
 
 You can save the capture before or after capturing
 
@@ -72,3 +69,46 @@ If the message we want to send is off the n/w it will be sent to the router and 
 	If we want to clear arp cache use command arp -d* with admin rights
 
 	In terminal $route PRINT to see route table
+
+
+TCP:
+---
+pass data b/w 2 ends and make sure both exchange the data
+EX: Telephone communication in daily life
+	-wait for dail tone
+	-dail phone no
+	-listen for ring,wait for ans
+	-hello this is kiran
+	-hello this is ramesh from other side
+	-$ranndmom$fjlfkl$%%%lfjfalfl conservation
+	-Goodbye
+	-Goodbye
+
+Tcp uses 3-way handshake
+	-------> Syn message
+	Syn-Ack Message <-----
+	-------->Ack message
+
+Tcp uses 4 way disconnect
+	--------->Fin ack
+	Ack<------------------
+	--------->Fin ack
+	Ack<------------------
+
+In TCP header
+	-source port
+	-dest port
+	-seq no
+	-acknowledge no
+	-data offset
+	-flags
+		-URG - urgent pointer
+		-ACK - acknowledge field
+		-PSH - push fns
+		-RST - reset the connection
+		-SYN - synchronize sequence no
+		-FIN - no more data from sender	
+
+	In wireshark goto statistics --> endpoints 
+	In wireshark goto voice-over-ip calls 
+	In wireshark goto statistics --> flow graph
