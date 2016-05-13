@@ -16,6 +16,11 @@ inurl:/view/view.shtml -->insecure web cams
 intitle:hacking
 inurl:admin filetype:asp inurl:userlist
 inurl:adminlogin -->vulnerable pages
+filetype:pdf
+inurl:/view/View.shtml  =Insecure cam
+intitle:hacking ==Hacking in title of website
+inurl:/admin filetype:asp inurl:userlist
+inurl:adminlogin
 
 ------------------------------------------------------
 1.cahche

@@ -1,0 +1,155 @@
+-----------------------------------------
+			   active - touching target
+FOOTPRINTING / 
+			 \ 
+			\  passive - no direct contact
+			 \
+			  \
+			   anonymous recon/internet recon/organisation recon/pseudnymous recon
+-----------------------------------------
+collect elementary intel == basic information
+discover os,web servers
+perform queries on target
+discover vunerablities
+layout a n/w map using mvsio 
+internal dns
+private websites == beta versions
+dumster diving
+shoulder surfing
+ear dropping
+Child domains 
+Phone
+Network
+Websites 
+Email Header,email search tools
+google search,yahoo,bing 
+Whois
+dns ==dnsstuff.com
+social n/w
+i/p blocks
+n/w blocks
+web svr content
+source code  ==wget, httptrack
+facebook == family details,intrests,friends,contact info
+website mirroring
+os DETECTING
+public directories
+search engines
+url analysis
+google earth
+people sites
+financial websites
+
+job sites search by job titles also linkedin,dice.com
+netcrafts 
+wayback machines   == http://archive.org/web/
+
+alert websites
+archive sites
+web monitoring
+trademark
+customers portals
+press releases
+google hacking
+goolink scanner
+google hack honeypot
+seachdiggity
+gooscan
+metagoofil
+sitedigger
+access control lists
+ids
+system names
+system enumeration
+system banners,routing tables,snmp info
+dns hostname
+n/w protocolstcp/ip,ipx/spx,appletalk
+internal dns?
+remote access posibilites vpn,dailup
+passwords
+
+main website
+company directory
+employee details
+location details
+phone no
+comments in html/css
+security policies
+web server links
+background of organisation
+news press releases
+----------------------------------------------------
+Tools:
+1.search engines upto pages > 10
+2.Websites
+3.Built in tools commands
+
+-----------------------------------------------------
+References:		
+http://www.whois.com/whois/ 				== Target information
+http://whatismyipaddress.com/ip-lookup
+http://whatismyipaddress.com/trace-email  	== Email tracer
+http://whatismyipaddress.com/blacklist-check  ==Checking for blacklist
+http://whois.domaintools.com/
+https://www.hackthissite.org  
+Whatweb in kali linux
+Metagoofil
+Maltego
+LinkExtractor Tool ==http://www.webtoolhub.com/tn561364-link-extractor.aspx
+Httprecon   == https://w3dt.net/tools/httprecon
+sslscan
+whois in kali linux**
+www.edge-security.com/soft/geoedge.py
+http://serversniff.net.ipaddress.com/
+https://www.shodan.io/
+http://searchdns.netcraft.com/
+https://remote.12dt.com/
+https://centralops.net/co/
+scapy in kali linux
+dig in kali linux **  ==alternative to nslookup	
+
+-------------------------------------------------
+ping hostname
+ping -a ip
+ping hostname -f -l 1500  == See how much fragmentation is allowed
+ping -n 2 hostname
+ping -i 4 www.google.com == gives no of hops b/w
+tracert ip_address
+traceroute in kali**
+ping www.domain.com 
+ping www.domain.com -f -l 1200
+ping -i 4(change this no) 194.5.4.33
+ping -a 193.45.33.44 == Hostname resolution
+tracert 192.14.5.3
+--------------------------------------
+nslookup www.google.com  == Non interactive mode
+Intractive mode:
+	
+nslookup press enter
+enter www.google.com
+enter help
+set type=a     (A type records)
+www.google.com
+	
+set type=mx    (Mail Server records)
+www.google.com
+	
+set type=SOA   (Start of Authoritive)
+www.google.com
+	
+server 8.8.8.8 (set sever)
+www.google.com
+
+set type=any   (any type)
+set type=cname (Alias)
+-----------------------------------------------
+
+
+
+
+
+
+	
+	
+
+	
