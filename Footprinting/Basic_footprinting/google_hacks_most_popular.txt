@@ -23,6 +23,18 @@ inurl:/admin filetype:asp inurl:userlist
 inurl:adminlogin
 
 ------------------------------------------------------
+
+
+
+Google Hacking Database
+Google has limit of 32 keywords
+
+Google Operators:
+single words vs combined operators
+using ""
+booleran operators AND
+spl characters  -
+
 1.cahche
 2.allinurl
 3.info
@@ -33,4 +45,10 @@ inurl:adminlogin
 8.allintitle
 9.filetype:pdf
 
+Tools:
+google hack honeypot
+seachdiggity
+gooscan
+metagoofil
+sitedigger
 

@@ -1,0 +1,47 @@
+SYSTEM HACKING:
+--------------
+
+Goals:
+1.Gain Access
+2.Maintain access
+3.Covering tracks
+
+
+GAINING ACCESS:
+---------------
+which path 1.via n/w 2.via os 3. via application
+result in 
+-escalation of privlidges
+	-vertical
+	-horizontal
+-password cracking
+
+use domain names as passwords
+JOhn the ripper is cracker
+hashkiller.co.uk  == Rainbow taables
+
+Kon boot is latest
+SpyAgent in windows 
+Goto c:\windows\system32>copy cmd.exe sethc.exe
+
+
+
+MAINTINING ACCESS:
+------------------
+PWNing the system  
+use system as launch pad
+hiding our tools
+inject backdoo/trojans 
+sniff n/w
+use resources like
+	spyware
+	backdoors
+	keyloggers
+	crackers
+	
+
+CLEARING TRACKS:
+---------------
+Destroy proof
+Hide stuff installed by hacker
+Cyber blind
