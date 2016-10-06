@@ -1,0 +1,56 @@
+Reconnaissance and Footprinting:
+1.Collect Elementary Intel
+2.Discover Os,web servers and platform
+3.Perform Queries
+4.Discover Vulnerabilities
+
+1.Understand the security posture
+2.Reduce the attack area
+3.Build information database
+4.Layout N/w map
+
+Types of recon:
+1.Active
+2.Passive
+3.Anonymous
+4.Organisation/Private
+5.Internet
+6.Pseudonymous
+
+Goals of Recons:
+
+	1. Domain names
+	2. Internal Domains
+	3. IP addresses
+	4. Private Websites
+	5. Tcp/udp
+	6. ids/acees controls
+	7. vpn
+	8. phone no
+	9. user and group names
+	10. banner grabbing
+	11. routing tables
+	12. snmp
+	13. sys arch
+	14. remote systems
+	15. System Names
+	16. Passwords
+	17. Organisation website
+	18. Company directory
+	19. employee details
+	20. Location details
+	21. Adresses/Phone no's
+	22. Comments in HTML/CSS
+	23. security policies
+	24. Web server links
+	25. Background of organistaion
+	26. News/Press Releases
+
+Tools of Recon:
+-----------------
+1.Search engine - google,bing ..
+2.Websites
+3.Applications and built in commands
+
+
+
